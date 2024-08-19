@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Hack';
+  src: url(/assets/fonts/Hack-NF.ttf);
+  display: swap;
+}
+
+* {
+  font-family: 'Hack', monospace;
+}
+
+html,
+body,
+body > div:first-child,
+div#__next,
+div#__next > div {
+  height: 100%;
+  overflow: auto;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e252e;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ebdbb2;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff8037;
+}
+html{
+  font-size: 13px;
+  @media (max-width: 720px) {
+    font-size: 13px;
+  }
+  
+}
+.img{
+  width: 100px;
+  height: 100px;
+  margin: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  margin: 20px;
+  margin-right: 45px;
+}
+.p_phil{
+  position: absolute;
+  font-size: 5px;
+  right: 0;
+  bottom: 0;
+  margin: 0 20px 15px 0px;
+}
